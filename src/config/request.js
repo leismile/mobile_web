@@ -10,27 +10,27 @@ const serviceRouter = function(requestUrl) {
     const configDev = {
       '/order-api': {
         prefix: '/order-api',
-        target: 'http://127.0.0.1:18088/order-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/order-api',
       },
       '/user-api': {
         prefix: '/user-api',
-        target: 'http://127.0.0.1:18082/user-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/user-api',
       },
       '/product-api': {
         prefix: '/product-api',
-        target: 'http://127.0.0.1:18081/product-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/product-api',
       },
       '/promotion-api': {
         prefix: '/promotion-api',
-        target: 'http://127.0.0.1:18085/promotion-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/promotion-api',
       },
       '/pay-api': {
         prefix: '/pay-api',
-        target: 'http://127.0.0.1:18084/pay-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/pay-api',
       },
       '/search-api': {
         prefix: '/search-api',
-        target: 'http://127.0.0.1:18086/search-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/search-api',
       },
     };
 
