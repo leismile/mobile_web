@@ -37,27 +37,27 @@ const serviceRouter = function(requestUrl) {
     const configProd = {
       '/order-api': {
         prefix: '/order-api',
-        target: 'http://api.shop.iocoder.cn:18088/order-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/order-api',
       },
       '/user-api': {
         prefix: '/user-api',
-        target: 'http://api.shop.iocoder.cn:18099/user-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/user-api',
       },
       '/product-api': {
         prefix: '/product-api',
-        target: 'http://api.shop.iocoder.cn:18099/product-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/product-api',
       },
       '/promotion-api': {
         prefix: '/promotion-api',
-        target: 'http://api.shop.iocoder.cn:18099/promotion-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/promotion-api',
       },
       '/pay-api': {
         prefix: '/pay-api',
-        target: 'http://api.shop.iocoder.cn:18099/pay-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/pay-api',
       },
       '/search-api': {
         prefix: '/search-api',
-        target: 'http://api.shop.iocoder.cn:18099/search-api',
+        target: 'http://8080.gr9cdb46.a9lhpqey.41431d.grapps.cn/search-api',
       },
     };
 
