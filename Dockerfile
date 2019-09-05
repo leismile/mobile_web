@@ -3,11 +3,12 @@ FROM circleci/node:latest-browsers
 WORKDIR /usr/src/app/
 USER root
 COPY package.json ./
-RUN npm install -g @vue/cli
-RUN npm install
+RUN npm install cnpm -g -registry=https://registry.npm.taobao.org
+RUN cnpm install -g @vue/cli
+RUN cnpm install
 
 COPY ./ ./
 
-RUN npm run build
+RUN cnpm run build
 
-CMD ["npm", "run", "start"]
+CMD ["cnpm", "run", "start"]
